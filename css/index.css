@@ -1,0 +1,11 @@
+.principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.estilo-boton{
+    margin-top: 30px;
+    width: 100%;
+}

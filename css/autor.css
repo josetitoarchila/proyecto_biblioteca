@@ -1,0 +1,73 @@
+body{
+    background-color: #ffffff;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:royalblue;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+}
+
+
+.estilo-boton{
+    margin-bottom: 10px;
+    border: none !important;
+}
+
+.estilo-boton1{
+    margin-bottom: 10px;
+
+}
+
+.active{
+    background-color: #df4759 !important;
+    
+}
+.nav-item{
+    margin-right: 20px;
+}
+
+
+.alinear{
+    text-align: center;
+}
+
+.alinear-header{
+    padding-top: 70px;
+    text-align: left;
+}
+
+.alinear-menu{
+    padding-top: 30px;
+}
+
+.alinear-footer{
+    padding-top: 30px;
+}
+
+
+
+/*configuración para celulares*/
+@media(max-width: 640px){
+    .menu ul{
+        display: block;
+    }
+   
+}
+
