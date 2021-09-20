@@ -1,11 +1,22 @@
-.principal {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+ 
 .estilo-boton{
-    margin-top: 30px;
-    width: 100%;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.form-control{
+  width: 300px !important;
+}
+.box{
+	display:flex;
+  margin: 0 auto;
+  width: 300px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen{
+  margin:20px;
+	
 }
